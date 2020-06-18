@@ -29,7 +29,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<label>p Y E</label>
 		<ul>
 			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
 		</ul>
