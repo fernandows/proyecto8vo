@@ -118,7 +118,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<p style="font-size:25px;">P Y E</p>
 		</div>
 
 			<div id="foot">

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,17 +27,18 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>PYE Collection</label>
 			<ul>
-				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
-				<li><a href="#login"   data-toggle="modal">Login</a></li>
+				<li><a href="#signup"   data-toggle="modal">Regístrate </a></li>
+				<li><a href="#login"   data-toggle="modal">Iniciar sesión</a></li>
 			</ul>
+
 	</div>
 
 	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">Login...</h3>
+				<h3 id="myModalLabel">Iniciar sesión...</h3>
 			</div>
 				<div class="modal-body">
 					<form method="post">
@@ -48,7 +49,8 @@
 				</div>
 			<div class="modal-footer">
 				<input class="btn btn-primary" type="submit" name="login" value="Login">
-				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">
+				cerrar</button>
 					</form>
 			</div>
 		</div>
@@ -56,7 +58,7 @@
 	<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">Sign Up Here...</h3>
+					<h3 id="myModalLabel">Salir...</h3>
 				</div>
 					<div class="modal-body">
 						<center>
@@ -75,7 +77,7 @@
 					</div>
 				<div class="modal-footer">
 					<input type="submit" class="btn btn-primary" name="signup" value="Sign Up">
-					<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>
 				</div>
 					</form>
 			</div>
@@ -98,39 +100,23 @@
 
 
 		<div id="content">
-			<legend><h3>Privacy Policy</h3></legend>
-				<p>The Alphaware Incorporated respect the privacy of the visitors
-					to the alphaware.com website and the local websites connected with it, and take great care to protect your
-					information.. This privacy policy tells you what information we collect from you, how we may use it and
-					the steps we take to ensure that it is protected.
+			<legend><h3>Política de privacidad
+ </h3></legend>
+				<p>respeta la privacidad de los visitantes del sitio web alphaware.com y de los sitios web locales relacionados con él, y tiene mucho cuidado para proteger su información. Esta política de privacidad le indica qué información recopilamos de usted, cómo podemos usarla. y los pasos que tomamos para asegurarnos de que esté protegido.
 				</p>
 			<hr>
-				<h4>Protection of visitors information</h4>
-					<p>In order to protect the information you provide to us by visiting our website we have implemented various
-						security measures. Your personal information is contained behind secured networks and is only accessible
-						by a limited number of people, who have special access rights and are required to keep the information
-						confidential.Please keep in mind though that whenever you give out personal information online there is a
-						risk that third parties may intercept and use that information. While Alphaware strives to protect its user's
-						personal information and privacy, we cannot guarantee the security of any information you disclose online
-						and you do so at your own risk.</p>
+				<h4>Protección de la información de los visitantes.
+</h4>
+					<p>Para proteger la información que nos proporciona visitando nuestro sitio web, hemos implementado varias medidas de seguridad. Su información personal está contenida detrás de redes seguras y solo es accesible para un número limitado de personas, que tienen derechos de acceso especiales y están obligados a mantener la información confidencial. Tenga en cuenta que siempre que proporcione información personal en línea existe un riesgo que terceros pueden interceptar y usar esa información. Si bien Alphaware se esfuerza por proteger la información personal y la privacidad de sus usuarios, no podemos garantizar la seguridad de la información que divulgue en línea y lo hace bajo su propio riesgo..</p>
 			<hr>
-				<h4>Use of cookies</h4>
-					<p>A cookie is a small string of information that the website that you visit transfers to your computer for
-						identification purposes. Cookies can be used to follow your activity on the website and that information
-						helps us to understand your preferences and improve your website experience. Cookies are also used to
-						remember for instance your user name and password.</p>
-					<p>You can turn off all cookies, in case you prefer not to receive them. You can also have your computer warn
-						you whenever cookies are being used. For both options you have to adjust your browser settings
-						(like internet explorer). There are also software products available that can manage cookies for you.
-						Please be aware though that when you have set your computer to reject cookies, it can limit the
-						functionality of the website you visit and it’s possible then that you do not have access to some of the
-						features on the website.</p>
+
+				
 			<hr>
-				<h4>Online policy</h4>
-					<p>The Privacy Policy does not extend to anything that is inherent in the operation of the internet, and
-						therefore beyond adidas' control, and is not to be applied in any manner contrary to applicable law or
-						governmental regulation. This online privacy policy only applies to information collected through our
-						website and not to information collected offline.</p>
+				<h4>Política en línea
+ </h4>
+					<p>La Política de privacidad no se extiende a nada inherente al funcionamiento de Internet y, por lo tanto, está más allá del control de adidas, y no debe aplicarse de ninguna manera contraria a la ley aplicable o la regulación gubernamental. Esta política de privacidad en línea solo se aplica a la información recopilada a través de nuestro sitio web y no a la información recopilada sin conexión.
+
+.</p>
 
 		</div>
 	<br />
@@ -138,8 +124,8 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<label style="font-size:17px;">  &copy; <?php echo  Date("Y"); ?> </label>
+			<p style="font-size:25px;"> PYE Collection </p>
 		</div>
 
 			<div id="foot">

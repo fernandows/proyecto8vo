@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,7 +27,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<label>PYE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>
@@ -104,7 +104,7 @@
 					<h4 style="text-indent:60px;"> Nos vemos como una empresa posicionada a nivel nacional e incursionando en el mercado internacional reconocida por su competitividad y productividad, comercializando productos de alto.</h4>
 			<br />
 				<legend><h3>Visión</h3></legend>
-					<h4 style="text-indent:60px;">Alphaware, the company that inspire, motivate, and give determination to the sports enthusiast.</h4>
+					<h4 style="text-indent:60px;"> Empresa que produce con el mejor estandar, siempre pensando el cliente.</h4>
 			<br />
 
 		</div>
@@ -113,8 +113,8 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<label style="font-size:17px;">  &copy; <?php echo  Date("Y"); ?> </label>
+			<p style="font-size:25px;">PYE </p>
 		</div>
 
 			<div id="foot">
