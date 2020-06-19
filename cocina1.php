@@ -7,7 +7,7 @@ include("function/session.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title> PYE Collection</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -28,7 +28,7 @@ include("function/session.php");
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<label> PYE Collection</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];

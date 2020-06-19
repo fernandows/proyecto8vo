@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,7 +27,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>alphaware</label>
+		<label>PYE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"   data-toggle="modal">Login</a></li>
@@ -131,7 +131,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<p style="font-size:25px;"> PYE Collection </p>
 		</div>
 
 			<div id="foot">
