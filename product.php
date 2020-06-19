@@ -6,7 +6,7 @@ include("function/customer_signup.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>P y Y</title>
+	<title>PyE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,8 +27,8 @@ include("function/customer_signup.php");
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>P y Y</label>
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>
@@ -103,15 +103,21 @@ include("function/customer_signup.php");
 <div id="container">
 	<div class="nav">
 
+			
 			 <ul>
 				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
 				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
 				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
-				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Politicas de la Empresa</font></a></li>
-				<li><a href="faqs.php"><font size="5"><i class="icon-question-sign"></i>Preguntas Frecuentes</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
+
 
 			</ul>
+
 
 	</div>
 <a href=" https://play.google.com/store/apps/details?id=com.ar.augment&hl=es " target=”_blank”    > <img src=QRS/metav.png  alt=Descargar ALIGN=RIGHT  WIDTH=90 HEIGHT=90″ /> </a>
@@ -195,7 +201,7 @@ include("function/customer_signup.php");
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<p style="font-size:25px;">PyE Collection </p>
 		</div>
 
 			<div id="foot">

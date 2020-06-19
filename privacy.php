@@ -26,7 +26,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
+		<img src="img/banner1.jpg">
 		<label>PYE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Regístrate </a></li>
@@ -86,14 +86,21 @@
 <div id="container">
 	<div class="nav">
 
+			
 			 <ul>
 				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
 				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
 				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
-				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Politicas de la Empresa</font></a></li>
-				<li><a href="faqs.php"><font size="5"><i class="icon-question-sign"></i>Preguntas Frecuentes</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
+
+
 			</ul>
+
 	</div>
 
 

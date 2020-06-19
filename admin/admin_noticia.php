@@ -37,33 +37,89 @@
 		</script>
 </head>
 <body>
-	<div id="header" style="position:fixed;">
-		<img src="../img/banner1.jpg">
-		<label>P Y E</label>
 
-			<?php
-				$id = (int) $_SESSION['id'];
 
-					$query = $connect->query ("SELECT * FROM admin WHERE adminid = '$id' ") or die (mysqli_error());
-					$fetch = $query->fetch ();
-			?>
 
-			s
+
+	<body>
+	<div id="header">
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
+		<ul>
+			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
+		</ul>
+			<ul>
+				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
+				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>
+			</ul>
 	</div>
-
-	<br>
-
-
-		
-		<div id="add" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
-			
-				
+		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+				<h3 id="myModalLabel">Ingresando...</h3>
+			</div>
+				<div class="modal-body">
+					<form method="post">
+					<center>
+						<input type="email" name="email" placeholder="Email" style="width:250px;">
+						<input type="password" name="password" placeholder="Password" style="width:250px;">
+					</center>
+				</div>
 			<div class="modal-footer">
-				<input class="btn btn-primary" type="submit" name="add" value="Add">
+				<input class="btn btn-primary" type="submit" name="login" value="Login">
 				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>
 					</form>
 			</div>
 		</div>
+
+		<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+					<h3 id="myModalLabel">Registrate aquí...</h3>
+				</div>
+					<div class="modal-body">
+						<center>
+					<form method="post">
+						<input type="text" name="nombre" placeholder="Ingrese los nombres" required><br>
+ 						<input type="text" name="apellido" placeholder="Ingrese los apellidos" required><br>
+						<input type="text" name="ciudad" placeholder="Ingrese la ciudad de residencia" required><br>
+						<input type="text" name="pais" placeholder="Ingrese el pais de residencia" required><br>
+ 						<input type="text" name="cedula" placeholder="Ingrese el numero de cedula sin espacios" maxlength="10"><br>
+						<input type="text" name="celular" placeholder="Ingrese un número de celular" maxlength="10"><br>
+						<input type="email" name="email" placeholder="Ingrese un correo" required><br>
+						<input type="password" name="password" placeholder="Contraseña" required><br>
+
+						</center>
+					</div>
+				<div class="modal-footer">
+					<input type="submit" class="btn btn-primary" name="signup" value="Registrarse">
+					<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+				</div>
+					</form>
+			</div>
+	<br>
+<div id="container">
+	<div class="nav">
+
+
+
+			 <ul>
+				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
+				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
+				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
+				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
+
+
+			</ul>
+
+
+			
+	</div>
 
 		<?php
 			if (isset($_POST['add']))

@@ -84,14 +84,21 @@
 <div id="container">
 	<div class="nav">
 
+			
 			 <ul>
 				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
 				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
 				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
-				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Politicas de la Empresa</font></a></li>
-				<li><a href="faqs.php"><font size="5"><i class="icon-question-sign"></i>Preguntas Frecuentes</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
+
+
 			</ul>
+
 	</div>
 
 		<img src="img/about1.jpg" style="width:1150px; height:250px; border:1px solid #000; ">

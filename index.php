@@ -94,8 +94,11 @@
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
 				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
 				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
-				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Politicas de la Empresa</font></a></li>
-				<li><a href="faqs.php"><font size="5"><i class="icon-question-sign"></i>Preguntas Frecuentes</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
 			</ul>
 	</div>
 
@@ -117,7 +120,7 @@
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:30%;">
 			<center><h2>
-			  <legend>Productos la vergas</legend></h2></center>
+			  <legend>Productos</legend></h2></center>
 			<br />
 
 			<?php

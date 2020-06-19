@@ -26,7 +26,7 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
+		<img src="img/banner1.jpg">
 		<label>PYE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
@@ -134,13 +134,10 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-<<<<<<< HEAD
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<p style="font-size:25px;"> PyE Collection </p>
 
 
-=======
 			<p style="font-size:25px;"> PYE Collection </p>
->>>>>>> 54cc97140f9d58aadac8e3c1650a2dfb8704c3f1
 		</div>
 
 
