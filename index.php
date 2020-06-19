@@ -7,11 +7,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< HEAD
+
 	<title>PYE Collection</title>
-=======
+
 	<title>P y E</title>
->>>>>>> c027ed6f5b2ab98a324b97af821a16863b0a85c0
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -33,7 +32,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>prueba</label>
+		<label>PyE Collection</label>
 		<ul>
 			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
 		</ul>
