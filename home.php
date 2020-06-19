@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>P Y E</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -26,7 +26,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<label>P Y E</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];

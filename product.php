@@ -6,7 +6,7 @@ include("function/customer_signup.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>P y Y</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -28,7 +28,7 @@ include("function/customer_signup.php");
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>kkkkkk</label>
+		<label>P y Y</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>

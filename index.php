@@ -7,7 +7,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
+	<title>PYE Collection</title>
+=======
 	<title>P y E</title>
+>>>>>>> c027ed6f5b2ab98a324b97af821a16863b0a85c0
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -28,8 +32,8 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>prueba</label>
+		<img src="img/banner1.jpg">
+		<label>P y Y</label>
 		<ul>
 			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
 		</ul>
@@ -162,8 +166,8 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
-			<p style="font-size:25px;">Faben Mobiliaria </p>
+			<label style="font-size:17px;">  &copy; <?php echo  Date("Y"); ?> </label>
+			<p style="font-size:25px;">PYE Collection  </p>
 		</div>
 
 			<div id="foot">

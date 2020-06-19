@@ -148,7 +148,7 @@
 						<li><a href="admin_home.php" style="color:#333;">Inicio</a></li>
 						<li><a href="admin_feature.php">Productos</a>
 							<ul>
-								<li><a href="admin_archiv.php" style="font-size:15px; margin-left:15px;">Archivadores</a></li>
+								<li><a href="admin_archiv.php" style="font-size:15px; margin-left:15px;">Mascarillas</a></li>
 								<li><a href="admin_cocina.php" style="font-size:15px; margin-left:15px;">Cocina</a></li>
 								<li><a href="admin_closets.php" style="font-size:15px; margin-left:15px;">Closets</a></li>
 								<li><a href="admin_escolar.php" style="font-size:15px; margin-left:15px;">Escolar</a></li>
