@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>P y Y</title>
 	<link rel = "stylesheet" type = "text/css" href="../css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<script src="../js/bootstrap.js"></script>
@@ -38,8 +38,8 @@
 </head>
 <body>
 	<div id="header" style="position:fixed;">
-		<img src="../img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<img src="../img/banner1.jpg">
+		<label>P y Y</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -147,7 +147,7 @@
 						<li><a href="admin_home.php" style="color:#333;">Inicio</a></li>
 						<li><a href="admin_feature.php">Productos</a>
 							<ul>
-								<li><a href="admin_archiv.php" style="font-size:15px; margin-left:15px;">Archivadores</a></li>
+								<li><a href="admin_archiv.php" style="font-size:15px; margin-left:15px;">Mascarillas</a></li>
 								<li><a href="admin_cocina.php" style="font-size:15px; margin-left:15px;">Cocina</a></li>
 								<li><a href="admin_closets.php" style="font-size:15px; margin-left:15px;">Closets</a></li>
 								<li><a href="admin_escolar.php" style="font-size:15px; margin-left:15px;">Escolar</a></li>

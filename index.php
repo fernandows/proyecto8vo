@@ -28,8 +28,8 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>prueba</label>
+		<img src="img/banner1.jpg">
+		<label>P y Y</label>
 		<ul>
 			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
 		</ul>
