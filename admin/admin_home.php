@@ -101,7 +101,7 @@ $(function () {
 
 		<div id="header" style="position:fixed;">
 			<img src="../img/logo.jpg">
-			<label>Faben Mobiliaria</label>
+			<label>P y Y</label>
 
 				<?php
 					$id = (int) $_SESSION['id'];
