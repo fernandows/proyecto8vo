@@ -7,7 +7,7 @@ include("function/session.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>PYE Collection</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
@@ -27,8 +27,8 @@ include("function/session.php");
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -109,28 +109,26 @@ include("function/session.php");
 <a href=" https://play.google.com/store/apps/details?id=com.gometa.metaverse&hl=es_419 " target=”_blank”    > <img src=QRS/metav.png  alt=Descargar ALIGN=RIGHT  WIDTH=90 HEIGHT=90″ /> </a>
 
 <div class="nav1">
-	<ul>
-		<li><a href="archivadores1.php" >Archivadores</a></li>
-		<li>|</li>
-		<li><a href="cocina1.php">Cocina</a></li>
-		<li>|</li>
-		<li><a href="closets1.php" class="active" style="color:#111;" >Closets</a></li>
-		<li>|</li>
-		<li><a href="escolar1.php">Escolar</a></li>
-		<li>|</li>
-		<li><a href="football1.php">Mesas</a></li>
-		<li>|</li>
-		<li><a href="recepciones1.php">Recepciones</a></li>
-		<li>|</li>
-		<li><a href="salas1.php">Salas</a></li>
-		<li>|</li>
-		<li><a href="running1.php" >Sillones</a></li>
-		<li>|</li>
-		<li><a href="product1.php">Sillas</a></li>
+		<ul>
+			<li><a href="archivadores.php" class="active" style="color:#111;">Mascarillas</a></li>
+			<li>|</li>
+			<li><a href="cocina.php">Tipo N95</a></li>
+			<li>|</li>
+			<li><a href="closets.php"  >Guantes</a></li>
+			<li>|</li>
+			<li><a href="escolar.php" >Zapatos antifluidos</a></li>
+			<li>|</li>
+			<li><a href="football.php"   >Trajes</a></li>
+			<li>|</li>
+			<li><a href="recepciones.php">Antifluidos</a></li>
+			<li>|</li>
+			<li><a href="salas.php">Blosas antifluidos</a></li>
+			<li>|</li>
+			<li><a href="running.php" >Ofertas</a></li>
+		
 
-</ul>
-		<a href="cart.php"><button class="btn btn-inverse" style="right:1%; position:fixed; top:10%;"><i class="icon-shopping-cart icon-white"></i> Ver Carrito</button></a>
-</div>
+	</ul>
+	</div>
 
 	<div id="content">
 		<br />

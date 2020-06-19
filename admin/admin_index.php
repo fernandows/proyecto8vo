@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AlphaWare</title>
+	<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="../css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
@@ -22,8 +22,8 @@
 </head>
 <body>
 	<div id="header">
-		<img src="../img/logo.jpg">
-		<label> Faben Mobiliaria</label>
+		<img src="/proyecto8vo/img/banner1.jpg">
+		<label> <a href="/proyecto8vo/index.php"></a> PyE Collection</label>
 	</div>
 
 		<?php include('../function/admin_login.php');?>
@@ -41,6 +41,9 @@
 						<br>
 						<br>
 							<input type="submit" name="enter" value="Enter" class="btn btn-primary" style="width:200px;">
+							<br>
+							<br>
+							<a href="/proyecto8vo/index.php"> Principal</a> 
 					</table>
 			</center>
 		</form>

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>P y Y</title>
+<title>PYE Collection</title>
 	<link rel = "stylesheet" type = "text/css" href="../css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<script src="../js/bootstrap.js"></script>
@@ -38,8 +38,8 @@
 </head>
 <body>
 	<div id="header" style="position:fixed;">
-		<img src="../img/banner1.jpg">
-		<label>P y Y</label>
+		<img src="/proyecto8vo/img/banner1.jpg">
+		<label>PyE Collection</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -148,14 +148,14 @@
 						<li><a href="admin_feature.php">Productos</a>
 							<ul>
 								<li><a href="admin_archiv.php" style="font-size:15px; margin-left:15px;">Mascarillas</a></li>
-								<li><a href="admin_cocina.php" style="font-size:15px; margin-left:15px;">Cocina</a></li>
-								<li><a href="admin_closets.php" style="font-size:15px; margin-left:15px;">Closets</a></li>
-								<li><a href="admin_escolar.php" style="font-size:15px; margin-left:15px;">Escolar</a></li>
-								<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Mesas</a></li>
-								<li><a href="admin_recepcion.php"style="font-size:15px; margin-left:15px;">Recepciones</a></li>
-								<li><a href="admin_salas.php"style="font-size:15px; margin-left:15px;">Salas</a></li>
-								<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Sillones</a></li>
-								<li><a href="admin_product.php" style="font-size:15px; margin-left:15px;">Sillas</a></li>
+								<li><a href="admin_cocina.php" style="font-size:15px; margin-left:15px;">tipo n95</a></li>
+								<li><a href="admin_closets.php" style="font-size:15px; margin-left:15px;">Guantes</a></li>
+								<li><a href="admin_escolar.php" style="font-size:15px; margin-left:15px;">Zapatos</a></li>
+								<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Trajes</a></li>
+								<li><a href="admin_recepcion.php"style="font-size:15px; margin-left:15px;">Antifluidos</a></li>
+								<li><a href="admin_salas.php"style="font-size:15px; margin-left:15px;">Bolsas antifluidos</a></li>
+								<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Ofertas</a></li>
+								
 							</ul>
 						</li>
 
@@ -184,7 +184,7 @@
 				</div>
 
 
-
+<!-- <li><a href="admin_product.php" style="font-size:15px; margin-left:15px;">Sillas</a></li> -->
 
 
 	<div id="rightcontent" style="position:absolute; top:14%;">

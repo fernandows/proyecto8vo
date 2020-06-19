@@ -39,8 +39,8 @@
 </head>
 <body>
 	<div id="header" style="position:fixed;">
-		<img src="../img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<img src="/proyecto8vo/img/banner1.jpg">
+		<label>PyE Collection</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];

@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+	<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -28,8 +28,8 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -94,13 +94,17 @@
 	<br>
 <div id="container">
 	<div class="nav">
+
 			 <ul>
-				<li><a href="home.php"><font size="5">   <i class="icon-home"></i>Inicio</a></li>
-				<li><a href="product1.php"> <font size="5">			 <i class="icon-th-list"></i>Productos</a></li>
-				<li><a href="aboutus1.php">  <font size="5"> <i class="icon-bookmark"></i>Nosotros</a></li>
-				<li><a href="contactus1.php"><font size="5"><i class="icon-inbox"></i>Contactos</a></li>
-				<li><a href="privacy1.php"><font size="5"><i class="icon-info-sign"></i>Politica de privacidad</a></li>
-				<li><a href="faqs1.php"><font size="5"><i class="icon-question-sign"></i>Compras Realizadas</a></li>
+				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
+				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
+				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
+				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="/proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
 			</ul>
 	</div>
 		<?php
@@ -194,18 +198,15 @@
 			<div id="foot">
 				<h4>Links</h4>
 					<ul>
-						<a href="http://www.facebook.com/Faben Mobiliaria"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/Faben Mobiliaria"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/Faben Mobiliaria"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/Faben Mobiliaria"><li>Tumblr</li></a>
+						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
+						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
 					</ul>
 			</div>
-
-			<div id="develop">
-				<h4>Desarrollado:</h4>
+			<div id="foot">
+				<h4>Links</h4>
 					<ul>
-						<a href="#"><li>Uniandes</li><a>
-						<a href="#"><li>Ibarra </li><a>
+						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
+						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>
 			</div>
 	</div>

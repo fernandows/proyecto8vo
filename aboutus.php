@@ -26,8 +26,8 @@
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>PYE Collection  </label>
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>
@@ -101,18 +101,29 @@
 
 	</div>
 
-		<img src="img/about1.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
+		<img src="img/logo60.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
 	<br />
 	<br />
 
 	<legend>Acerca de Nosotros</legend>
 		<div id="content">
 			<legend><h3>Misión</h3></legend>
-					<h4 style="text-indent:60px;"> Nos vemos como una empresa posicionada a nivel nacional e incursionando en el mercado internacional reconocida por su competitividad y productividad, comercializando productos de alto.</h4>
-			<br />
+					<h4 style="text-indent:0px;"> Nos vemos como una empresa posicionada a nivel nacional e incursionando en el mercado internacional reconocida por su competitividad y productividad, comercializando productos de alto. <br>
+					Ofrecer a nuestros clientes  productos de calidad, a precios cómodos  que cumplan con sus necesidades y exigencias, abarcando sus gustos de acuerdo a su estilo de ver y vivir la vida.</h4>
+			<br/>
 				<legend><h3>Visión</h3></legend>
-					<h4 style="text-indent:60px;"> Empresa que produce con el mejor estandar, siempre pensando el cliente.</h4>
-			<br />
+					<h4 style="text-indent:0px;"> Empresa que produce con el mejor estandar, siempre pensando el cliente.<br>
+					Ser una empresa  líder y reconocida en la venta productos antifluidos, lograr también extendernos y crear  nuestras cadenas de almacenes,   proporcionando cada día más un servicio de excelencia a nuestros clientes y que al mismo tiempo nos permitan competir en el mercado nacional con los mejores precios del mercado.</h4>
+			<br/>
+			<legend><h3>Valores</h3></legend>
+					<h4 style="text-indent:0px;"> Calidad.
+						<br>
+					Compromiso
+					<br>
+				Lealtad
+				<br>
+			Nuestros valores giran entorno a la idea de exclusividad y lujo que queremos que tengan nuestros productos. Ofreceremos una seriedad y garantía, por ello, creemos en el trabajo en equipo, en el compromiso con el cliente y respeto hacia éste, en la integridad, la ética y en apertura total a la innovación. También, apostamos por la disciplina y  la constancia para ser rigurosos con nuestros trabajos.</h4>
+			<br/>
 
 		</div>
 	<br />
@@ -129,6 +140,11 @@
 					<ul>
 						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
+					</ul>
+			</div>
+			<div id="foot">
+				<h4>Links</h4>
+					<ul>
 						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
 						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>

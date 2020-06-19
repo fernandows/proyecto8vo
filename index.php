@@ -10,7 +10,7 @@
 
 	<title>PYE Collection</title>
 
-	<title>P y E</title>
+
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -98,7 +98,7 @@
 <li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
 
 
-	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
+	<li><a href="/proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
 			</ul>
 	</div>
 

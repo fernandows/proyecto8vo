@@ -103,7 +103,6 @@ include("function/customer_signup.php");
 <div id="container">
 	<div class="nav">
 
-			
 			 <ul>
 				<li><a href="index.php"><font size="5"><i class="icon-home"></i>Inicio</font>  </a></li>
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
@@ -113,37 +112,31 @@ include("function/customer_signup.php");
 <li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
 
 
-	<li><a href="proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
-
-
+	<li><a href="/proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
 			</ul>
-
-
 	</div>
 <a href=" https://play.google.com/store/apps/details?id=com.ar.augment&hl=es " target=”_blank”    > <img src=QRS/metav.png  alt=Descargar ALIGN=RIGHT  WIDTH=90 HEIGHT=90″ /> </a>
 
 	<div class="nav1">
 		<ul>
-			<li><a href="archivadores.php" >Archivadores</a></li>
+			<li><a href="archivadores.php" >Mascarillas</a></li>
 			<li>|</li>
-			<li><a href="cocina.php">Cocina</a></li>
+			<li><a href="cocina.php" >Tipo N95</a></li>
 			<li>|</li>
-			<li><a href="closets.php"  >Closets</a></li>
+			<li><a href="closets.php"  >Guantes</a></li>
 			<li>|</li>
-			<li><a href="escolar.php"  >Escolar</a></li>
+			<li><a href="escolar.php" >Zapatos antifluidos</a></li>
 			<li>|</li>
-			<li><a href="football.php"   >Mesas</a></li>
+			<li><a href="football.php"   >Trajes</a></li>
 			<li>|</li>
-			<li><a href="recepciones.php">Recepciones</a></li>
+			<li><a href="recepciones.php">Antifluidos</a></li>
 			<li>|</li>
-			<li><a href="salas.php">Salas</a></li>
+			<li><a href="salas.php">Blosas antifluidos</a></li>
 			<li>|</li>
-			<li><a href="running.php"  >Sillones</a></li>
-			<li>|</li>
-			<li><a href="product.php"  class="active" style="color:#111;">Sillas</a></li>
+			<li><a href="running.php" >Ofertas</a></li>
+		
 
 	</ul>
-
 	</div>
 
 	<div id="content">
@@ -209,7 +202,13 @@ include("function/customer_signup.php");
 					<ul>
 						<a href="http://www.facebook.com/Faben Mobiliaria"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/Faben Mobiliaria"><li>Twitter</li></a>
-
+					</ul>
+			</div>
+			<div id="foot">
+				<h4>Links</h4>
+					<ul>
+						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
+						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>
 			</div>
 	</div>

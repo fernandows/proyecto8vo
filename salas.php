@@ -6,7 +6,7 @@ include("function/customer_signup.php");
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Faben Mobiliaria</title>
+		<title>PYE Collection</title>
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -27,8 +27,8 @@ include("function/customer_signup.php");
 </head>
 <body>
 	<div id="header">
-		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<img src="img/banner1.jpg">
+		<label>PyE Collection</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>
@@ -108,31 +108,33 @@ include("function/customer_signup.php");
 				<li><a href="product.php"><font size="5"><i class="icon-th-list"></i>Productos</font></a>
 				<li><a href="aboutus.php"><font size="5"><i class="icon-bookmark"></i>Nosotros</font></a></li>
 				<li><a href="contactus.php"><font size="5"><i class="icon-inbox"></i>Contactanos</font></a></li>
-				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Politicas de la Empresa</font></a></li>
-				<li><a href="faqs.php"><font size="5"><i class="icon-question-sign"></i>Preguntas Frecuentes</font></a></li>
+				<li><a href="privacy.php"><font size="5"><i class="icon-info-sign"></i>Acerca de</font></a></li>
+<li><a href="Galeria.php"><font size="5"><i class="icon-info-sign"></i>Galeria</font></a></li>
+
+
+	<li><a href="/proyecto8vo/admin/admin_noticia.php"><font size="5"><i class="icon-info-sign"></i>Noticias</font></a></li>
 			</ul>
 	</div>
 <a href=" https://play.google.com/store/apps/details?id=com.ar.augment&hl=es " target=”_blank”    > <img src=QRS/metav.png  alt=Descargar ALIGN=RIGHT  WIDTH=90 HEIGHT=90″ /> </a>
 
 	<div class="nav1">
 		<ul>
-			<li><a href="archivadores.php" >Archivadores</a></li>
+			<li><a href="archivadores.php" >Mascarillas</a></li>
 			<li>|</li>
-			<li><a href="cocina.php">Cocina</a></li>
+			<li><a href="cocina.php">Tipo N95</a></li>
 			<li>|</li>
-			<li><a href="closets.php"  >Closets</a></li>
+			<li><a href="closets.php"  >Guantes</a></li>
 			<li>|</li>
-			<li><a href="escolar.php" >Escolar</a></li>
+			<li><a href="escolar.php" >Zapatos antifluidos</a></li>
 			<li>|</li>
-			<li><a href="football.php"   >Mesas</a></li>
+			<li><a href="football.php"   >Trajes</a></li>
 			<li>|</li>
-			<li><a href="recepciones.php">Recepciones</a></li>
+			<li><a href="recepciones.php" >Antifluidos</a></li>
 			<li>|</li>
-			<li><a href="salas.php"  class="active" style="color:#111;">Salas</a></li>
+			<li><a href="salas.php" class="active" style="color:#111;">Blosas antifluidos</a></li>
 			<li>|</li>
-			<li><a href="running.php" >Sillones</a></li>
-			<li>|</li>
-			<li><a href="product.php">Sillas</a></li>
+			<li><a href="running.php" >Ofertas</a></li>
+		
 
 	</ul>
 	</div>
@@ -190,6 +192,11 @@ include("function/customer_signup.php");
 					<ul>
 						<a href="http://www.facebook.com/alphaware"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/alphaware"><li>Twitter</li></a>
+					</ul>
+			</div>
+			<div id="foot">
+				<h4>Links</h4>
+					<ul>
 						<a href="http://www.pinterest.com/alphaware"><li>Pinterest</li></a>
 						<a href="http://www.tumblr.com/alphaware"><li>Tumblr</li></a>
 					</ul>
