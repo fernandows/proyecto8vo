@@ -99,13 +99,13 @@
 	<br />
 
 		<div id="content">
-			<form method="post">
+			<form method="post" action="mensaje_contactanos.php" >
 				<table style="position:relative; left:25%;">
 					<tr>
-						<td style="font-size:20px;">Email:</td><td><input type="email" name="email" placeholder="Email" style="width:400px;"></td>
+						<td style="font-size:20px;">Email:</td><td><input type="email" name="nombre" placeholder="Email" style="width:400px;"></td>
 					</tr>
 					<tr>
-						<td style="font-size:20px;">Message:</td><td><textarea name="message" style="width:400px; height:300px;" required></textarea></td>
+						<td style="font-size:20px;">Message:</td><td><textarea name="mensaje" style="width:400px; height:300px;" required></textarea></td>
 					</tr>
 					<tr>
 						<td></td><td><button class="btn btn-info" name="send" style="width:300px;"><i class="icon icon-ok icon-white"></i>Submit</button>&nbsp;<a href="index.php"><button class="btn btn-danger" style="width:110px;"><i class="icon icon-remove icon-white"></i>Cancel</button></a></td>
@@ -127,12 +127,22 @@
 
 	<br />
 </div>
+	
+
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.320525166251!2d-78.21924215792191!3d0.3312265343920321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2a3e89a77bd251%3A0x5cf6d5442bc9aa87!2sTime%20Collection%20Wear!5e0!3m2!1ses-419!2sec!4v1592542708945!5m2!1ses-419!2sec" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
 	<br />
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; <?php echo  Date("Y"); ?> </label>
 			<p style="font-size:25px;">Faben Mobiliaria </p>
+
+
 		</div>
+
+
+
+
+
 
 			<div id="foot">
 				<h4>Links</h4>
