@@ -28,7 +28,7 @@ include("function/customer_signup.php");
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>Faben Mobiliaria</label>
+		<label>kkkkkk</label>
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Registrarse</a></li>
 				<li><a href="#login"   data-toggle="modal">Ingresar</a></li>

@@ -7,7 +7,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>PYE Collection</title>
+=======
+	<title>P y E</title>
+>>>>>>> c027ed6f5b2ab98a324b97af821a16863b0a85c0
 	<link rel="icon" href="img/logo.jpg" />
 	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -29,7 +33,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo.jpg">
-		<label>p Y E</label>
+		<label>prueba</label>
 		<ul>
 			<li><a href="admin/admin_home.php"><i "></i>Administrador</a></li>
 		</ul>
@@ -114,7 +118,7 @@
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:30%;">
 			<center><h2>
-			  <legend>Productos más Solicitados</legend></h2></center>
+			  <legend>Productos la vergas</legend></h2></center>
 			<br />
 
 			<?php
